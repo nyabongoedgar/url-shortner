@@ -1,0 +1,72 @@
+@import './colors.scss';
+
+.layout {
+    display: flex;
+}
+
+.layout.horizontal {
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.layout.vertical {
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.layout.center-justified {
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+}
+
+.layout.center-center {
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.layout.center-justified {
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+}
+
+.btn-primary {
+    background-color: $green;
+    border: none;
+    color: $white;
+    width: auto;
+    height: 31px;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pr-10 {
+    padding: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.block-el {
+    height: 100vh;
+    width: 100%;
+}
